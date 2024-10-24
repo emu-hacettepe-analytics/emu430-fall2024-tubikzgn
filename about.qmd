@@ -7,7 +7,7 @@ sidebar: false
 
 -   B.S., Industrial Engineering, Hacettepe University, Turkey, 2020 - ongoing.
 
-- B.S., Computer Science, Universidad de Alcala, Spain, 2022-2023(Erasmus student exchange)
+-   B.S., Computer Science, Universidad de Alcala, Spain, 2022-2023(Erasmus student exchange)
 
 # Work Experience
 
@@ -23,7 +23,7 @@ In my graduation project, my teammates and I developed a survey criteria elimina
 
 # Competencies
 
-R, Quarto, Git, Python, Canva, SQL, 
+R, Quarto, Git, Python, Canva, SQL,
 
 # Hobbies
 
