@@ -20,13 +20,6 @@ website:
           - text: Project
             href: project.qmd
             
-    tools:
-      - icon: github
-        href: https://github.com/tubikzgn
-      - icon: instagram
-        href: https://www.instagram.com/tubii_kzgn/
-      - icon: linkedin
-        href: https://www.linkedin.com/in/tuba-kizgin/
 
   sidebar:
     - title: "Assignments"
@@ -52,6 +45,4 @@ format:
 
 
 editor: visual
-
-quarto render
 
