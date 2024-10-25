@@ -12,4 +12,16 @@ My first assignment has two parts.
 
 ## (a)
 
+"Which of the following is the type of dance Baykal Hafızoğlu's danced? A) Bachata B) Tango C) Salsa D) Freestyle"
+
+"Answer is Tango"
+
+"How many data analytics method exists?"
+
+"Answer: -Descriptive Analytics -Diagnostic Analytics -Predictive Analytics -Prescriptive Analytics"
+
 ## (b)
+
+if (!require(dslabs)) install.packages("dslabs") library(dslabs)
+
+data("polls_us_election_2016")
