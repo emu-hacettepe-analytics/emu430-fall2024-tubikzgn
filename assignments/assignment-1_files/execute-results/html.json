@@ -3,7 +3,9 @@
   "result": {
     "engine": "knitr",
     "markdown": "---\ntitle: \"Assignment 1\"\n---\n\n\n\n\n# Assignment 1\n\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n\n\nMy first assignment has two parts.\n\n## (a)\n\n\"Which of the following is the type of dance Baykal Hafızoğlu's danced? A) Bachata B) Tango C) Salsa D) Freestyle\"\n\n\"Answer is Tango\"\n\n\"How many data analytics method exists?\"\n\n\"Answer: -Descriptive Analytics -Diagnostic Analytics -Predictive Analytics -Prescriptive Analytics\"\n\n## (b)\n\nif (!require(dslabs)) install.packages(\"dslabs\") library(dslabs)\n\ndata(\"polls_us_election_2016\")\n",
-    "supporting": [],
+    "supporting": [
+      "signment-1_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
