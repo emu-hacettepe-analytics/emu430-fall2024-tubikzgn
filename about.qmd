@@ -13,9 +13,9 @@ sidebar: false
 
 ## Internships
 
-1.  ASELSAN, Project Planning Candidate Engineer, year 2023-ongoing
+1.  ASELSAN, Project Planning Candidate Engineer, year 06/2023-07/2023
 
-2.  Turkish Aerospace Industries, Business Analyst and Data Science Intern, 2023-ongoing
+2.  Turkish Aerospace Industries, Business Analyst and Data Science Intern, 07/2023-08/2024
 
 # Projects
 

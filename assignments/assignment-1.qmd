@@ -5,7 +5,31 @@ title: "Assignment 1"
 # Assignment 1
 
 ```{r}
-1 + 1
+options(repos = c(CRAN = "https://cran.rstudio.com/"))
+install.packages("rmarkdown")
+install.packages("knitr")
+install.packages("dslabs")
+library(dslabs)
+
+data("polls_us_election_2016")
+head(polls_us_election_2016, 10)
+
+sum(is.na(polls_us_election_2016))
+
+polls_us_election_2016_new <- polls_us_election_2016  # We gave new name to the dataset
+
+polls_us_election_2016_new[] <- lapply(polls_us_election_2016_new, function(x) {
+    if (is.numeric(x)) {
+        x[is.na(x)] <- 2001  # Now we are changing some NA values with my birth year
+    } else {
+        x <- as.character(x)
+        x[is.na(x)] <- "Tuba"  # Lastly changing some NA values with my name
+    }
+    return(x)
+})
+
+head(polls_us_election_2016_new,10)
+sum(is.na(polls_us_election_2016_new))
 ```
 
 My first assignment has two parts.
@@ -33,18 +57,17 @@ library(dslabs)
 data("polls_us_election_2016") 
 head(polls_us_election_2016,10)
 sum(is.na(polls_us_election_2016))
-> polls_us_election_2016_new <- polls_us_election_2016 #We gave new name to the dataset
-> 
-> polls_us_election_2016_new[] <- lapply(polls_us_election_2016_new, function(x) {
-+     if (is.numeric(x)) {
-+         x[is.na(x)] <- 2001  #Now we are changing some na values with my birth year
-+     } else {
-+         x <- as.character(x)
-+         x[is.na(x)] <- "Tuba"  #Lastly changing some na values with my name
-+     }
-+     return(x)
-+ })
-> 
-> head(polls_us_election_2016_new,10)
+polls_us_election_2016_new <- polls_us_election_2016 #We gave new name to the dataset
+
+polls_us_election_2016_new[] <- lapply(polls_us_election_2016_new, function(x) {
+     if (is.numeric(x)) {
+         x[is.na(x)] <- 2001  #Now we are changing some na values with my birth year
+     } else {
+         x <- as.character(x)
+         x[is.na(x)] <- "Tuba"  #Lastly changing some na values with my name
+     }
+     return(x)
+ })
+head(polls_us_election_2016_new,10)
 sum(is.na(polls_us_election_2016_new))
 ```
